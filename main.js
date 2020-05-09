@@ -1,2 +1,2 @@
 alert 
-    ("What am I thinking of!?!?!?!")
+    // ("What am I thinking of!?!?!?!")
