@@ -70,22 +70,22 @@ document.getElementById("10").onclick = function(event, userPick) {
 
 function runGame(userPick) {
     if (userPick == compPick) {
-        document.getElementById("comp-guess").innerHTML = "You guessed right! I was thinking " + compPick + "! I'm thinking of a new number. try to guess that one too.";
+        document.getElementById("comp-guess").innerHTML = "You guessed right!  I was thinking  " + compPick + "!  I'm thinking of a new number.  Try to guess that one too.";
         wins++;
         guessesLeft = 3;
         compPickAgain();
     
     }
     else if (guessesLeft == 3) {
-        document.getElementById("comp-guess").innerHTML = "Wrong! Guess Again.";
+        document.getElementById("comp-guess").innerHTML = "Wrong!  Guess Again.";
         guessesLeft--;
     }
     else if (guessesLeft == 2) {
-        document.getElementById("comp-guess").innerHTML = "Nope, Still wrong! One more guess.";
+        document.getElementById("comp-guess").innerHTML = "Nope, Still wrong!  One more guess.";
         guessesLeft--;
     }
     else if (guessesLeft == 1) {
-        document.getElementById("comp-guess").innerHTML = "Sorry you lose. I guess you don't have any psychic abilities. The number I was thinking was " + compPick + ". Lets try again!";
+        document.getElementById("comp-guess").innerHTML = "Sorry you lose.  I guess you don't have any psychic abilities.  The number I was thinking of was " + compPick + ".  Try again!";
         guessesLeft = 3;
         compPickAgain();
     };
