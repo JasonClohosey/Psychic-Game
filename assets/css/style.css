@@ -26,7 +26,6 @@ header {
     color: white;
     text-align: center;
     font-family: fantasy;
-    /* float: left; */
 }
 h1 {
     margin-bottom: 0rem;
@@ -54,12 +53,7 @@ p {
     height: 9rem;
     float: left;
 }
-h2 {
-    
-}
-#pschic {
-    /* width: 15rem; */
-}
+
 #psyMan {
     height: 11rem;
     width: 40%;
@@ -72,11 +66,10 @@ button {
     height: 12.5%;
     float: left;
     background-color: black;
-    /* border: none; */
     color: white;
     font-size: 1rem;
     border-radius: 1rem;
-    /* background: radial-gradient(ellipse at center, black, transparent), radial-gradient(ellipse at bottom, rgb(78, 12, 78), rgb(78, 12, 78)); */
+    
 }
 
 button:focus {
